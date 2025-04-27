@@ -18,17 +18,15 @@
             document.documentElement.classList.add('dark')
         }
     })
-</script> 
+</script>
 
 <template>
-   <Switch :model-value="isDark" @update:model-value="toggleTheme">
-    <template #thumb>
-        <MoonIcon v-if="isDark" class="w-4 h-4" />
-        <SunIcon v-else class="w-4 h-4 text-primary" />
-    </template> 
-  </Switch>
+    <Switch :model-value="isDark" @update:model-value="toggleTheme">
+        <template #thumb>
+            <MoonIcon v-if="isDark" class="h-4 w-4" />
+            <SunIcon v-else class="text-primary h-4 w-4" />
+        </template>
+    </Switch>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
