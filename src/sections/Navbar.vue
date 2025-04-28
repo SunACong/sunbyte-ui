@@ -1,6 +1,6 @@
 <template>
-    <div class="flex items-center justify-around">
-        <div class="flex items-center justify-center gap-2" @click="goHome">
+    <div class="flex items-center justify-end">
+        <div class="mr-auto flex items-center justify-center gap-2" @click="goHome">
             <img src="../assets/vue.svg" alt="" />
             <h1 class="text-primary">Sunbyte UI</h1>
         </div>

@@ -10,7 +10,7 @@ const router = createRouter({
     routes: [
         {
             path: '/:pathMatch(.*)*',
-            redirect: '/home',
+            redirect: '/', // 重定向到根路径，该路径映射到 Home 组件
         },
         {
             path: '/',

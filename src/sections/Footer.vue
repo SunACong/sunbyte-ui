@@ -1,6 +1,6 @@
 <template>
-    <div class="flex items-start justify-around">
-        <div class="flex items-center justify-center gap-x-20">
+    <div class="flex items-center justify-end">
+        <div class="mr-auto flex items-center justify-center gap-x-20">
             <div>
                 <h1 class="mb-4 font-bold">链接</h1>
                 <div v-for="item in linkList" :key="item.id">
